@@ -83,7 +83,7 @@
         </ul>
 
         <div id="usernavigation" class="navbar-nav ms-auto">
-            <span class="mt-2">Dark mode</span>
+            <span class="mt-2">{{#str}}darkmode, theme_coconut{{/str}}</span>
             {{< core/toggle }}
                 {{$id}}theme-darkmode{{/id}}
                 {{$extraclasses}}mt-2{{/extraclasses}}
@@ -94,7 +94,7 @@
                         checked
                     {{/ isdarkmode }}
                 {{/attributes}}
-                {{$label}}Enable/disable dark mode{{/label}}
+                {{$label}}{{#str}}darkmodesrlabel, theme_coconut{{/str}}{{/label}}
                 {{$labelclasses}}sr-only{{/labelclasses}}
             {{/ core/toggle }}
 

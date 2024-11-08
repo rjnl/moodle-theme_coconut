@@ -29,3 +29,5 @@ $string['pluginname'] = 'Coconut';
 $string['choosereadme'] = 'A simple theme with darkmode support.';
 // We need to include a lang string for each block region.
 $string['region-side-pre'] = 'Right';
+$string['darkmode'] = 'Dark mode';
+$string['darkmodesrlabel'] = 'Enable/diable dark mode';
