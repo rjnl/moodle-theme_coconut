@@ -1,0 +1,25 @@
+// Post SCSS for the theme.
+@import "mixins";
+
+html {
+  height: auto;
+  background: $body-bg;
+}
+
+body {
+  background: $body-bg;
+  font-size: 0.9rem;
+}
+
+#page.drawers .main-inner {
+    background-color: $body-bg !important;
+    color: $body-color;
+}
+
+
+.navbar-light {
+    background: #81d4fa !important;
+    border-bottom: 1px solid $primary !important;
+}
+
+@import "theme_mode";

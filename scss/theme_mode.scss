@@ -1,0 +1,28 @@
+.darkmode {
+    background-color: $body-bg-dark !important;
+    color: $body-color-dark;
+
+    #page,
+    #page.drawers .main-inner,
+    #region-main {
+        background-color: $body-bg-dark !important;
+        color: $body-color-dark;
+    }
+
+    .navbar-light {
+        color: $body-color;
+    }
+
+}
+
+// Keep these pages in default/light mode.
+.path-mod-book.darkmode,
+.path-mod-page.darkmode,
+.path-mod-forum.darkmode,
+.path-mod-wiki.darkmode {
+    #region-main {
+        background-color: $gray-200 !important;
+        border-color: $gray-300;
+        color: $gray-800;
+    }
+}
